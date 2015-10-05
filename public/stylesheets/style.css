@@ -6,3 +6,20 @@ body {
 a {
   color: #00b7ff;
 }
+#chat {
+  margin: 0 auto;
+}
+#chat .chat-container {
+  height: 400px;
+  border: 1px solid #000;
+  width: 75%;
+}
+#chat .chat-input-container {
+  width: 100%;
+}
+#chat .chat-input-container form {
+  width: 100%;
+}
+#chat .chat-input-container form #inputContent {
+  width: 75%;
+}

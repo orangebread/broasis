@@ -3,3 +3,12 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  div#chat
+      .chat-container
+          .messages-container
+              ul.chat
+      .chat-input-container
+          form(action="")
+              input#inputContent
+              .btn-send
+                  button.send(type='submit') Send
